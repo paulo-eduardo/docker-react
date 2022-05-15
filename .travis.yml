@@ -8,10 +8,3 @@ before_install:
 
 script:
   - docker run -e CI=true pauloes/docker-react npm run test
-# script:
-#   - docker run USERNAME/docker-react npm run test -- --coverage
-
-# instead should be:
-
-# script:
-#
